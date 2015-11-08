@@ -79,9 +79,8 @@ header {
         height:65px;
         background-color:#FFA500;
         padding:10px 40px;
-        
-        
-        text=-align:center;
+        font-family: 'Roboto Slab', serif;        
+        text-align:center;
       }
         header nav li a {
           width:100%; 
