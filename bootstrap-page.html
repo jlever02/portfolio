@@ -25,44 +25,52 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-  
-  <header>
+<body class="container-fluid">  
+  <header class="row">
     <!--     Site title, sub-title, nav, and logo     -->
-    <img src="images/logo-placeholder.png" alt="Logo Placeholder" title="Logo" />
-    <h1>Jeremie Leverich Portfolio</h1><br />
-    <h3>Responsive, Attractive, Consistent</h3>
-    <nav>
+    <img class="col-md-2" src="images/logo-placeholder.png" alt="Logo Placeholder" title="Logo" />
+    
+    <h1 class="col-md-5 col-md-offset-5">Jeremie Leverich Portfolio</h1><br />
+    <h3 class="col-md-5 col-md-offset-5">Responsive, Attractive, Consistent</h3>
+    <nav class="row">
       <ul>
-        <li><a href="index.html"><span>Home</span><i class="fa fa-map-pin"></i></a></li>        
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
+        <li class="col-xs-2 col-md-offset-2"><a href="index.html"><span>Home</span><i class="fa fa-map-pin"></i></a></li>        
+        <li class="col-xs-2"><a href="projects.html">Projects</a></li>
+        <li class="col-xs-2"><a href="about.html">About</a></li>
+        <li class="col-xs-2"><a href="#">Bootstrap</a></li>
       </ul>
+      
     </nav>
   </header>
-   <!--     End Site title, sub-title, nav, and logo     -->
+  
+  <!--     End Site title, sub-title, nav, and logo     -->
    <!--    Main container     -->
-  <article>
-    <h2>Some Info will go in this article</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum ultrices erat sit amet ultrices. In a purus condimentum, consectetur augue vitae, bibendum velit. Nam elit ligula, tempus et tortor at, pretium ornare sem. </p>
-      <p>Vestibulum tincidunt in diam eu accumsan. Quisque tincidunt lorem suscipit, efficitur nisi vitae, dapibus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada nunc id neque euismod tincidunt. Donec blandit metus dolor, vel pretium quam tristique sit amet.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum ultrices erat sit amet ultrices. In a purus condimentum, consectetur augue vitae, bibendum velit. Nam elit ligula, tempus et tortor at, pretium ornare sem. </p>
-      <p>Vestibulum tincidunt in diam eu accumsan. Quisque tincidunt lorem suscipit, efficitur nisi vitae, dapibus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada nunc id neque euismod tincidunt. Donec blandit metus dolor, vel pretium quam tristique sit amet.</p>
+  <article class="row col-md-12">
+    <section class="col-md-9">
+      <h2 class="col-md-12">Some Info will go in this article</h2>
+      
+    
+      <p class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum ultrices erat sit amet ultrices. In a purus condimentum, consectetur augue vitae, bibendum velit. Nam elit ligula, tempus et tortor at, pretium ornare sem. </p>
+      <p class="col-md-3">Vestibulum tincidunt in diam eu accumsan. Quisque tincidunt lorem suscipit, efficitur nisi vitae, dapibus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada nunc id neque euismod tincidunt. Donec blandit metus dolor, vel pretium quam tristique sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum ultrices erat sit amet ultrices. In a purus condimentum, consectetur augue vitae, bibendum velit. Nam elit ligula, tempus et tortor at, pretium ornare sem. </p>
+      <p class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum ultrices erat sit amet ultrices. In a purus condimentum, consectetur augue vitae, bibendum velit. Nam elit ligula, tempus et tortor at, pretium ornare sem. </p>
+      <p class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum ultrices erat sit amet ultrices. In a purus condimentum, consectetur augue vitae, bibendum velit. Nam elit ligula, tempus et tortor at, pretium ornare sem. </p>
+    </section>
+<!--     Side Bar     -->
+<!--     Side Bar     -->
+    <section class="row col-md-3">
+      <h2 class="col-md-12">My aside</h2>
+      <p class="col-md-12">Vestibulum tincidunt in diam eu accumsan. Quisque tincidunt lorem suscipit, efficitur nisi vitae, dapibus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada nunc id neque euismod tincidunt. Donec blandit metus dolor, vel pretium quam tristique sit amet.</p>
+    </section>
     
     
   </article>
   <!--     End Main container     -->
 
-   <!--     Side Bar     -->
-  <aside>
-     <h2>Some Info will go in this aside</h2>
-    <p>Praesent fringilla nibh quis tortor tincidunt, a dapibus diam fermentum. Fusce risus orci, faucibus id porta et, volutpat id eros. Maecenas semper libero lectus, eget mollis dolor fermentum sed. Duis ultricies orci id ornare facilisis. Cras vel ligula porta risus congue convallis. Vestibulum nec magna ultrices dolor ullamcorper commodo. In viverra turpis in urna consequat, non ornare mauris aliquam.</p>
-  </aside>   
-  <!--     Side Bar     -->
+
 
   <!--      Footer Copyright nav contact    -->
-  <footer>
-    <p>Jeremie Leverich || &copy;2015</p>
+  <footer class="row">
+    <p class="col-md-12 col-md-offset-5">Jeremie Leverich || &copy;2015</p>
 
   </footer>
   <!--   End Footer Copyright nav contact     -->
