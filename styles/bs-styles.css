@@ -11,10 +11,6 @@ html {
 body {
   font-family: "Times New Roman", Times, serif; 
   color:#000000;
-  background: -webkit-linear-gradient(#ee824d, #FFA500); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#ee824d, #FFA500); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ee824d, #FFA500); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ee824d, #FFA500); /* Standard syntax (must be last) */
   padding:0rem 1.2rem;
   height:100%;
   overflow-x:hidden;
@@ -51,11 +47,8 @@ header nav ul {
       font-size:1.5rem;
       line-height:3rem;
       float:left;
-/*      width:calc(100% - 87%);*/
       height:3rem;
       list-style-type: none;
-      background-color:#FFA500;
-      border-right:2px solid #E85C15;
       
     }
       header nav li:first-child {
