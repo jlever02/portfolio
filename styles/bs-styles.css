@@ -17,7 +17,8 @@ body {
   background: linear-gradient(#ee824d, #FFA500); /* Standard syntax (must be last) */
   padding:0rem 1.2rem;
   height:100%;
-  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:scroll;
   
 }
 
@@ -42,48 +43,23 @@ p {
   overflow:hidden;
 }
 /********** End Global styles **********/
-
-/********** Header styles **********/
-
-/*For this weeks assignment (Week ???) I am focusing on the header section of this site.*/
-header {
-  color:#000000;
-  height:auto;
-  width:100%;
-}
-  header img {
-    height:10rem;
-    float:left;
-  }
-  header h1 {
-    font-size:2rem;
-    text-align:right;
-    width:50%;
-    float:right;
-  }
-  header h2 {    
-    font-size:.9rem;
-    width:50%;
-    margin-bottom: 3.8rem;
-    text-align:right;
-    float:right;
-  }
-  header nav ul {
+header nav ul {
     width:100%;
   }
 
     header nav ul li {
-      font-size:1rem;
-      line-height:2rem;
+      font-size:1.5rem;
+      line-height:3rem;
       float:left;
-      width:calc(100% - 87%);
-      height:2rem;
+/*      width:calc(100% - 87%);*/
+      height:3rem;
       list-style-type: none;
       background-color:#FFA500;
       border-right:2px solid #E85C15;
+      
     }
       header nav li:first-child {
-        margin-left:34%;
+        margin-left:16rem;
       }
       header nav ul li:last-child {
         border-right: none;
@@ -92,11 +68,11 @@ header {
         text-align:center;
         text-decoration:none;
         color:#000000;
-        padding:4% 36%; 
+        padding:3% 32%; 
       }
       header nav ul li a:hover {
         text-decoration:underline;
-        font-size:1.2rem;
+        font-size:1.7rem;
         font-weight:600;
         
         color: #E85C15;
@@ -109,56 +85,5 @@ header {
         color:#000000;
         position:relative;
         left:15%;
-        top:-2rem;
+        top:-3rem;
       } 
-/*Need to get the portrait mode working properly*/
-
-
-/********** End Header styles **********/
-
-/********** Article styles **********/
-article {
-  clear:both;
-  width:70.4%;
-  float:left;
-  margin-right:5.4%;
-  margin-top:2rem;
-}
-article ul {
-  margin-left:1rem;
-}
-article li a {
-  color:#000000;
-  text-decoration:underline;
-  margin:10px 40px 10px 10px;
-}
-li img {
-  height:50px;
-  width:auto;
-}
-/********** End Article styles **********/
-
-/********** Aside styles **********/
-aside {
-  width:20%;
-  float:left;
-  margin-top:2rem;
-}
-aside li a {
-  color:#000000;
-  text-decoration:underline;
-  margin:10px 40px 10px 10px;
-}
-li img {
-  height:50px;
-  width:auto;
-}
-/********** End Aside styles **********/
-
-/********** Footer styles **********/
-footer {
-  clear:both;
-  width:100%;
-  text-align:center;
-}
-
